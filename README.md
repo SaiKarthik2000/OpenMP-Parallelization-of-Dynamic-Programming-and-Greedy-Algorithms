@@ -1,0 +1,1 @@
+# OpenMP-Parallelization-of-Dynamic-Programming-and-Greedy-Algorithms
