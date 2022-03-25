@@ -47,8 +47,8 @@ int main()
 	//cout<<str1<<endl;
 	//cout<<str2;
 	int m = str1.length();
-    int n = str2.length();
-    double start_time =  omp_get_wtime();
+  	int n = str2.length();
+  	double start_time =  omp_get_wtime();
 	int len=LCS(str1,str2,m,n);
 	cout<<"The length of longest common subsequence is "<<len<<endl;
 	double end_time = omp_get_wtime();
