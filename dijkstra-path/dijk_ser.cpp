@@ -18,14 +18,6 @@ int minDistance(int dist[], bool sptSet[])
 	return min_index;
 }
 
-
-void printSolution(int dist[])
-{
-	cout <<"Vertex \t Distance from Source" << endl;
-	for (int i = 0; i < V; i++)
-		cout << i << " \t\t"<<dist[i]<< endl;
-}
-
 double dijkstra(int graph[V][V], int src)
 {
 	int dist[V]; 
